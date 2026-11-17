@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Prison Hotel</title>
+  <meta name="description" content="A five-star hotel with a prison vibe — St Petersburg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <style>html,body{margin:0;background:#0b0b0b;color:#f2f2f2;font-family:Arial,sans-serif}</style>
+</head>
+<body>
+
+<div class="vignette" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><span></span></div>
+<nav class="dots" aria-label="Slides"></nav>
+
+<main>
+
+  <!-- HERO -->
+  <section class="slide hero" id="top">
+    <div class="hero-shade" aria-hidden="true"></div>
+    <figure class="photo hero-photo" style="--w:1024px;--ar:1.5;--hmax:100vh;--pos-m:40% 50%">
+      <img src="5.jpg" alt="Hotel grounds at night with coloured lights on the trees" width="1024" height="683">
+    </figure>
+    <div class="hero-text reveal">
+      <h1>The Prison Hotel</h1>
+      <span class="rule" aria-hidden="true"></span>
+      <p class="sub">A five-star hotel with a prison vibe — St Petersburg</p>
+    </div>
+    <a class="scroll-cue" href="#s1">scroll down</a>
+  </section>
+
+  <!-- 1 · A: full photo, caption in the corner -->
+  <section class="slide layout-a" id="s1">
+    <figure class="photo reveal" style="--w:1000px;--ar:1.5;--pos-m:50% 50%">
+      <img src="1.jpg" alt="Hotel building on a lawn among tall pine trees" width="1000" height="667">
+      <figcaption>
+        <p class="caption">Prison atmosphere, not just design</p>
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- 2 · B: photo left, caption on the free side -->
+  <section class="slide layout-b" id="s2">
+    <figure class="photo reveal" style="--w:500px;--ar:1.5;--pos-m:58% 50%">
+      <img src="2.webp" alt="Hotel lobby with grey sofas and tall glass windows" width="500" height="333">
+    </figure>
+    <p class="caption reveal">The staff call themselves wardens</p>
+  </section>
+
+  <!-- 3 · C: letterbox 16:9 frame, caption below -->
+  <section class="slide layout-c" id="s3">
+    <figure class="photo reveal" style="--w:640px;--ar:1.7778;--pos-m:50% 50%">
+      <img src="3.jpeg" alt="Aerial view of the hotel in a pine forest" width="640" height="480">
+    </figure>
+    <p class="caption reveal">No gym — individual psychotherapy instead</p>
+  </section>
+
+  <!-- 4 · A: full photo, caption in the corner -->
+  <section class="slide layout-a" id="s4">
+    <figure class="photo reveal" style="--w:739px;--ar:1.7778;--pos-m:38% 50%">
+      <img src="4.jpeg" alt="Hotel building with a green glass tower among pines" width="739" height="415">
+      <figcaption>
+        <p class="caption">Silence Day: no phones, no gadgets</p>
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- 5 · B flipped: photo right, caption on the left -->
+  <section class="slide layout-b flip" id="s5">
+    <figure class="photo reveal" style="--w:1024px;--ar:1.5;--pos-m:40% 50%">
+      <img src="5.jpg" alt="Hotel grounds at night with coloured lights" width="1024" height="683">
+    </figure>
+    <p class="caption reveal">A strict daily routine: meals, exercise, sleep</p>
+  </section>
+
+  <!-- 6 · C: letterbox 16:9 frame, caption below -->
+  <section class="slide layout-c" id="s6">
+    <figure class="photo reveal" style="--w:1000px;--ar:1.7778;--pos-m:50% 50%">
+      <img src="1.jpg" alt="Pine trees around the hotel building" width="1000" height="667">
+    </figure>
+    <p class="caption reveal">Forest and sea views</p>
+  </section>
+
+  <!-- 7 · A: full photo, caption in the corner -->
+  <section class="slide layout-a" id="s7">
+    <figure class="photo reveal" style="--w:739px;--ar:1.7778;--pos-m:38% 50%">
+      <img src="4.jpeg" alt="Hotel building with a green glass tower among pines" width="739" height="415">
+      <figcaption>
+        <p class="caption">Reviews and awards prove it works</p>
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- FINAL -->
+  <section class="slide final" id="end">
+    <p class="question reveal">An unusual way to get fit — would you try it?</p>
+    <p class="footnote">School project · 10th grade</p>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
