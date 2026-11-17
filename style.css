@@ -112,7 +112,7 @@ main > section {
 .photo {
   position: relative;
   margin: 0;
-  width: min(90vw, var(--w), calc(78vh * var(--ar)));
+  width: min(90vw, calc(78vh * var(--ar)));
   aspect-ratio: var(--ar);
   overflow: hidden;
   background: var(--concrete);
@@ -246,7 +246,7 @@ main > section {
 }
 .layout-b .photo {
   flex: 0 0 auto;
-  width: min(68vw, var(--w), calc(78vh * var(--ar)));
+  width: min(68vw, calc(78vh * var(--ar)));
 }
 .layout-b .caption {
   flex: 1 1 0;
@@ -276,7 +276,7 @@ main > section {
   padding: 10vh 5vw;
 }
 .layout-c .photo {
-  width: min(90vw, var(--w), calc(68vh * var(--ar)));
+  width: min(90vw, calc(68vh * var(--ar)));
 }
 .layout-c .caption {
   margin: 0;
